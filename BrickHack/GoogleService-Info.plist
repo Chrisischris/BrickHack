@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>363668750238-nlkrqqoo8u7kklmf8fcf615r41o7gvc0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.363668750238-nlkrqqoo8u7kklmf8fcf615r41o7gvc0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCYkUMtHjDuYSXhpFmowkhH27vjn68L4Kw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>363668750238</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>christopherhaen.BrickHack</string>
+	<key>PROJECT_ID</key>
+	<string>brickhack-c7585</string>
+	<key>STORAGE_BUCKET</key>
+	<string>brickhack-c7585.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:363668750238:ios:0633b175dade0507</string>
+	<key>DATABASE_URL</key>
+	<string>https://brickhack-c7585.firebaseio.com</string>
+</dict>
+</plist>

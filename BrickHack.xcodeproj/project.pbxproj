@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61FB7D51EE9674F991A36539 /* Pods_BrickHackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0F170DAD72BB87E2D7594 /* Pods_BrickHackTests.framework */; };
+		92B1995706A1731A7189E673 /* Pods_BrickHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93699604836EB14622C72820 /* Pods_BrickHack.framework */; };
+		A07231E4221881BB00C9563A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A07231E3221881BB00C9563A /* GoogleService-Info.plist */; };
+		A07231E5221881BB00C9563A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A07231E3221881BB00C9563A /* GoogleService-Info.plist */; };
+		A07231E6221881BB00C9563A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A07231E3221881BB00C9563A /* GoogleService-Info.plist */; };
+		A07231E822189AE300C9563A /* RidesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07231E722189AE300C9563A /* RidesDetailViewController.swift */; };
+		A07231EA22189D7900C9563A /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07231E922189D7900C9563A /* GlobalVariables.swift */; };
+		A07231EC2218D09900C9563A /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07231EB2218D09900C9563A /* MyRidesViewController.swift */; };
+		A07231EE2218D3F700C9563A /* MyRidesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07231ED2218D3F700C9563A /* MyRidesDetailViewController.swift */; };
+		A07231F02218F0DA00C9563A /* CreateTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07231EF2218F0DA00C9563A /* CreateTripViewController.swift */; };
+		A096516E221869CC00556ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096516D221869CC00556ACC /* AppDelegate.swift */; };
+		A0965170221869CC00556ACC /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096516F221869CC00556ACC /* RidesViewController.swift */; };
+		A0965175221869CC00556ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0965173221869CC00556ACC /* Main.storyboard */; };
+		A0965177221869CF00556ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0965176221869CF00556ACC /* Assets.xcassets */; };
+		A096517A221869CF00556ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0965178221869CF00556ACC /* LaunchScreen.storyboard */; };
+		A0965185221869CF00556ACC /* BrickHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0965184221869CF00556ACC /* BrickHackTests.swift */; };
+		A0965190221869CF00556ACC /* BH5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096518F221869CF00556ACC /* BH5UITests.swift */; };
+		C677544CEB6FE0E6DCF64743 /* Pods_BrickHackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B35A0921F2B08DE9076B0EF /* Pods_BrickHackUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0965181221869CF00556ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0965162221869CC00556ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0965169221869CC00556ACC;
+			remoteInfo = BH5;
+		};
+		A096518C221869CF00556ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0965162221869CC00556ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0965169221869CC00556ACC;
+			remoteInfo = BH5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F0F170DAD72BB87E2D7594 /* Pods_BrickHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrickHackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4586293A3F5CD4EA42F896 /* Pods-BrickHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHack/Pods-BrickHack.release.xcconfig"; sourceTree = "<group>"; };
+		2519AA4D4D1DCC8DE10A90EB /* Pods-BrickHackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHackTests/Pods-BrickHackTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D136758D906EF1326D3EAF5 /* Pods-BrickHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHackTests/Pods-BrickHackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B35A0921F2B08DE9076B0EF /* Pods_BrickHackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrickHackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD0BC16165845BF76C7941B /* Pods-BrickHackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHackUITests/Pods-BrickHackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93699604836EB14622C72820 /* Pods_BrickHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrickHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DF3ADE559EEDBD34F42108 /* Pods-BrickHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHack/Pods-BrickHack.debug.xcconfig"; sourceTree = "<group>"; };
+		A07231E3221881BB00C9563A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A07231E722189AE300C9563A /* RidesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesDetailViewController.swift; sourceTree = "<group>"; };
+		A07231E922189D7900C9563A /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		A07231EB2218D09900C9563A /* MyRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
+		A07231ED2218D3F700C9563A /* MyRidesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesDetailViewController.swift; sourceTree = "<group>"; };
+		A07231EF2218F0DA00C9563A /* CreateTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripViewController.swift; sourceTree = "<group>"; };
+		A096516A221869CC00556ACC /* BrickHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrickHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A096516D221869CC00556ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A096516F221869CC00556ACC /* RidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		A0965174221869CC00556ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0965176221869CF00556ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0965179221869CF00556ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A096517B221869CF00556ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0965180221869CF00556ACC /* BrickHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrickHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0965184221869CF00556ACC /* BrickHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickHackTests.swift; sourceTree = "<group>"; };
+		A0965186221869CF00556ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A096518B221869CF00556ACC /* BrickHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrickHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A096518F221869CF00556ACC /* BH5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BH5UITests.swift; sourceTree = "<group>"; };
+		A0965191221869CF00556ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B41ACEA33E3ED3444E675F /* Pods-BrickHackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrickHackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrickHackUITests/Pods-BrickHackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0965167221869CC00556ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B1995706A1731A7189E673 /* Pods_BrickHack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A096517D221869CF00556ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FB7D51EE9674F991A36539 /* Pods_BrickHackTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0965188221869CF00556ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C677544CEB6FE0E6DCF64743 /* Pods_BrickHackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B902DD84207DAB069CD9FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DF3ADE559EEDBD34F42108 /* Pods-BrickHack.debug.xcconfig */,
+				1B4586293A3F5CD4EA42F896 /* Pods-BrickHack.release.xcconfig */,
+				4D136758D906EF1326D3EAF5 /* Pods-BrickHackTests.debug.xcconfig */,
+				2519AA4D4D1DCC8DE10A90EB /* Pods-BrickHackTests.release.xcconfig */,
+				F4B41ACEA33E3ED3444E675F /* Pods-BrickHackUITests.debug.xcconfig */,
+				5BD0BC16165845BF76C7941B /* Pods-BrickHackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0965161221869CC00556ACC = {
+			isa = PBXGroup;
+			children = (
+				A096516C221869CC00556ACC /* BrickHack */,
+				A0965183221869CF00556ACC /* BH5Tests */,
+				A096518E221869CF00556ACC /* BH5UITests */,
+				A096516B221869CC00556ACC /* Products */,
+				0B902DD84207DAB069CD9FE2 /* Pods */,
+				DE1BFE09D962FB0F876BE2D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A096516B221869CC00556ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A096516A221869CC00556ACC /* BrickHack.app */,
+				A0965180221869CF00556ACC /* BrickHackTests.xctest */,
+				A096518B221869CF00556ACC /* BrickHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A096516C221869CC00556ACC /* BrickHack */ = {
+			isa = PBXGroup;
+			children = (
+				A096516D221869CC00556ACC /* AppDelegate.swift */,
+				A07231E922189D7900C9563A /* GlobalVariables.swift */,
+				A096516F221869CC00556ACC /* RidesViewController.swift */,
+				A07231E722189AE300C9563A /* RidesDetailViewController.swift */,
+				A07231EB2218D09900C9563A /* MyRidesViewController.swift */,
+				A07231ED2218D3F700C9563A /* MyRidesDetailViewController.swift */,
+				A07231EF2218F0DA00C9563A /* CreateTripViewController.swift */,
+				A0965173221869CC00556ACC /* Main.storyboard */,
+				A0965176221869CF00556ACC /* Assets.xcassets */,
+				A0965178221869CF00556ACC /* LaunchScreen.storyboard */,
+				A096517B221869CF00556ACC /* Info.plist */,
+				A07231E3221881BB00C9563A /* GoogleService-Info.plist */,
+			);
+			path = BrickHack;
+			sourceTree = "<group>";
+		};
+		A0965183221869CF00556ACC /* BH5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0965184221869CF00556ACC /* BrickHackTests.swift */,
+				A0965186221869CF00556ACC /* Info.plist */,
+			);
+			path = BH5Tests;
+			sourceTree = "<group>";
+		};
+		A096518E221869CF00556ACC /* BH5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A096518F221869CF00556ACC /* BH5UITests.swift */,
+				A0965191221869CF00556ACC /* Info.plist */,
+			);
+			path = BH5UITests;
+			sourceTree = "<group>";
+		};
+		DE1BFE09D962FB0F876BE2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93699604836EB14622C72820 /* Pods_BrickHack.framework */,
+				06F0F170DAD72BB87E2D7594 /* Pods_BrickHackTests.framework */,
+				5B35A0921F2B08DE9076B0EF /* Pods_BrickHackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0965169221869CC00556ACC /* BrickHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0965194221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHack" */;
+			buildPhases = (
+				EC2D13D91E24C18670897018 /* [CP] Check Pods Manifest.lock */,
+				A0965166221869CC00556ACC /* Sources */,
+				A0965167221869CC00556ACC /* Frameworks */,
+				A0965168221869CC00556ACC /* Resources */,
+				909C239340D37C99ADE4808C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrickHack;
+			productName = BH5;
+			productReference = A096516A221869CC00556ACC /* BrickHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A096517F221869CF00556ACC /* BrickHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0965197221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHackTests" */;
+			buildPhases = (
+				3ABD9492510AC5AEC2581B06 /* [CP] Check Pods Manifest.lock */,
+				A096517C221869CF00556ACC /* Sources */,
+				A096517D221869CF00556ACC /* Frameworks */,
+				A096517E221869CF00556ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0965182221869CF00556ACC /* PBXTargetDependency */,
+			);
+			name = BrickHackTests;
+			productName = BH5Tests;
+			productReference = A0965180221869CF00556ACC /* BrickHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A096518A221869CF00556ACC /* BrickHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A096519A221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHackUITests" */;
+			buildPhases = (
+				6B21261FC61CCD2CD1CDA99B /* [CP] Check Pods Manifest.lock */,
+				A0965187221869CF00556ACC /* Sources */,
+				A0965188221869CF00556ACC /* Frameworks */,
+				A0965189221869CF00556ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A096518D221869CF00556ACC /* PBXTargetDependency */,
+			);
+			name = BrickHackUITests;
+			productName = BH5UITests;
+			productReference = A096518B221869CF00556ACC /* BrickHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0965162221869CC00556ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Christopher Haen";
+				TargetAttributes = {
+					A0965169221869CC00556ACC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A096517F221869CF00556ACC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A0965169221869CC00556ACC;
+					};
+					A096518A221869CF00556ACC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A0965169221869CC00556ACC;
+					};
+				};
+			};
+			buildConfigurationList = A0965165221869CC00556ACC /* Build configuration list for PBXProject "BrickHack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0965161221869CC00556ACC;
+			productRefGroup = A096516B221869CC00556ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0965169221869CC00556ACC /* BrickHack */,
+				A096517F221869CF00556ACC /* BrickHackTests */,
+				A096518A221869CF00556ACC /* BrickHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0965168221869CC00556ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A096517A221869CF00556ACC /* LaunchScreen.storyboard in Resources */,
+				A07231E4221881BB00C9563A /* GoogleService-Info.plist in Resources */,
+				A0965177221869CF00556ACC /* Assets.xcassets in Resources */,
+				A0965175221869CC00556ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A096517E221869CF00556ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07231E5221881BB00C9563A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0965189221869CF00556ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07231E6221881BB00C9563A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ABD9492510AC5AEC2581B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrickHackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B21261FC61CCD2CD1CDA99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrickHackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909C239340D37C99ADE4808C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrickHack/Pods-BrickHack-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrickHack/Pods-BrickHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2D13D91E24C18670897018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrickHack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0965166221869CC00556ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07231EE2218D3F700C9563A /* MyRidesDetailViewController.swift in Sources */,
+				A07231E822189AE300C9563A /* RidesDetailViewController.swift in Sources */,
+				A07231F02218F0DA00C9563A /* CreateTripViewController.swift in Sources */,
+				A07231EC2218D09900C9563A /* MyRidesViewController.swift in Sources */,
+				A096516E221869CC00556ACC /* AppDelegate.swift in Sources */,
+				A0965170221869CC00556ACC /* RidesViewController.swift in Sources */,
+				A07231EA22189D7900C9563A /* GlobalVariables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A096517C221869CF00556ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0965185221869CF00556ACC /* BrickHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0965187221869CF00556ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0965190221869CF00556ACC /* BH5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0965182221869CF00556ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0965169221869CC00556ACC /* BrickHack */;
+			targetProxy = A0965181221869CF00556ACC /* PBXContainerItemProxy */;
+		};
+		A096518D221869CF00556ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0965169221869CC00556ACC /* BrickHack */;
+			targetProxy = A096518C221869CF00556ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0965173221869CC00556ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0965174221869CC00556ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0965178221869CF00556ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0965179221869CF00556ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0965192221869CF00556ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0965193221869CF00556ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0965195221869CF00556ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DF3ADE559EEDBD34F42108 /* Pods-BrickHack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS4WD246Q6;
+				INFOPLIST_FILE = BrickHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BrickHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0965196221869CF00556ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4586293A3F5CD4EA42F896 /* Pods-BrickHack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS4WD246Q6;
+				INFOPLIST_FILE = BrickHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BrickHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0965198221869CF00556ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D136758D906EF1326D3EAF5 /* Pods-BrickHackTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BH5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BH5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickHack.temp_caseinsensitive_rename.app/BrickHack.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		A0965199221869CF00556ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2519AA4D4D1DCC8DE10A90EB /* Pods-BrickHackTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BH5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BH5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickHack.temp_caseinsensitive_rename.app/BrickHack.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		A096519B221869CF00556ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B41ACEA33E3ED3444E675F /* Pods-BrickHackUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BH5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BH5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BH5;
+			};
+			name = Debug;
+		};
+		A096519C221869CF00556ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD0BC16165845BF76C7941B /* Pods-BrickHackUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BH5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christopherhaen.BH5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BH5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0965165221869CC00556ACC /* Build configuration list for PBXProject "BrickHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0965192221869CF00556ACC /* Debug */,
+				A0965193221869CF00556ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0965194221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0965195221869CF00556ACC /* Debug */,
+				A0965196221869CF00556ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0965197221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0965198221869CF00556ACC /* Debug */,
+				A0965199221869CF00556ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A096519A221869CF00556ACC /* Build configuration list for PBXNativeTarget "BrickHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A096519B221869CF00556ACC /* Debug */,
+				A096519C221869CF00556ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0965162221869CC00556ACC /* Project object */;
+}
